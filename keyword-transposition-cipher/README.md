@@ -6,7 +6,9 @@ Hackerrank - Paul Hendricks
 To run:
 
 ```shell
-git clone https://github.com/paulhendricks/hackerrank.git
-cd hackerrank/keyword-transposition-cipher
-python3 cypher.py
+git clone https://github.com/CrossChx/Lunch-Hackers.git
+cd Lunch-Hackers/hackerrank_keyword-transposition-cipher/paulhendricks
+python3 cipher.py
 ```
+
+For challenge details, please: https://www.hackerrank.com/challenges/keyword-transposition-cipher
