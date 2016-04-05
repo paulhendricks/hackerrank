@@ -6,8 +6,8 @@ Hackerrank - Paul Hendricks
 To run:
 
 ```shell
-git clone https://github.com/CrossChx/Lunch-Hackers.git
-cd Lunch-Hackers/hackerrank_keyword-transposition-cipher/paulhendricks
+git clone https://github.com/paulhendricks/hackerrank.git
+cd keyword-transposition-cipher
 python3 keyword-transposition-cipher.py
 ```
 
