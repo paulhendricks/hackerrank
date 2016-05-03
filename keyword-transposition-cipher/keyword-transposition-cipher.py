@@ -1,19 +1,17 @@
 #!/bin/python3
 
 
-def fix_keyword(x):
-    unique = []
-    for i in x.upper():
-        if i in unique:
-            pass
-        else:
-            unique.append(i)
-    return unique
+def dedupe(items):
+    seen = set()
+    for item in items:
+        if item not in seen:
+            yield item
+            seen.add(item)
 
 
 def translate(raw_keyword, message):
     alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-    keyword = fix_keyword(raw_keyword)
+    keyword = dedupe(list(raw_keyword))
     n = len(keyword)
     keyword_sorted = keyword.copy()
     keyword_sorted.sort()
